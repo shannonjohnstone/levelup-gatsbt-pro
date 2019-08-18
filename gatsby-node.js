@@ -17,7 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
                 edges {
                     node {
                         frontmatter {
-                            path
+                            slug
                         }
                     }
                 }
@@ -29,13 +29,13 @@ exports.createPages = ({ graphql, actions }) => {
         /**
          * create pages
          * set path for page
-         * pass in `path` as context for the `BlogPost` page to use as a query
+         * pass in `path` as context for the `blogPostTemplate` page to use as a query
          */
         result.data.allMarkdownRemark.edges.forEach(({ node }) => {
             actions.createPage({
-                path: `posts${node.frontmatter.path}`,
-                component: path.resolve('src/components/blogPost.js'),
-                context: { pathVariable: node.frontmatter.path }
+                path: `posts${node.frontmatter.slug}`,
+                component: path.resolve('src/components/blogPostTemplate.js'),
+                context: { slug: node.frontmatter.slug }
             })
         })
     })

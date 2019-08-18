@@ -15,7 +15,7 @@ const BLOG_ARCHIVE_QUERY = graphql`
         node {
           frontmatter {
             title
-            path
+            slug
             date(formatString: "DD-MM-YYYY")
           }
         }
@@ -28,8 +28,8 @@ const Archive = () => {
   const data = useStaticQuery(BLOG_ARCHIVE_QUERY)
 
   const constructLiItem = ({ node }) => (
-    <li key={node.frontmatter.path}>
-      <Link to={`/posts${node.frontmatter.path}`}>{node.frontmatter.title}</Link>
+    <li key={node.frontmatter.slug}>
+      <Link to={`/posts${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
     </li>
   )
 

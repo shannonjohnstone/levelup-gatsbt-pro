@@ -1,5 +1,5 @@
 ---
-path: "/how-to-javascript"
+slug: "/how-to-javascript"
 title: "How to JavaScript"
 date: "2019-01-16T23:19:51.246Z"
 ---

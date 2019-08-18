@@ -1,5 +1,5 @@
 ---
-path: "/react-basics"
+slug: "/react-basics"
 title: "React Basics"
 date: "2019-07-16T23:19:51.246Z"
 ---

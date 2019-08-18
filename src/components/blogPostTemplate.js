@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from '../components/layout';
 
 /**
@@ -23,16 +23,15 @@ export default function BlogPost({ data }) {
 }
 
 /**
- * pathVariable variable value is being passed in from `gatsby-node.js`
+ * slug variable value is being passed in from `gatsby-node.js`
  * via the context object
  */
 export const pageQuery = graphql`
-  query($pathVariable: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathVariable } }) {
+  query($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
       }
     }
