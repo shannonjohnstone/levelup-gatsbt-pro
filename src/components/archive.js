@@ -10,12 +10,13 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 
 const BLOG_ARCHIVE_QUERY = graphql`
   query BlogPostArchive {
-    allMarkdownRemark {
+    allMarkdownRemark(limit: 5, sort: { fields: [frontmatter___date], order: DESC } ) {
       edges {
         node {
           frontmatter {
             title
             path
+            date(formatString: "DD-MM-YYYY")
           }
         }
       }
