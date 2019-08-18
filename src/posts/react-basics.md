@@ -1,10 +1,9 @@
 ---
-path: "react-basics"
+path: "/react-basics"
 title: "React Basics"
 date: "2019-07-16T23:19:51.246Z"
 ---
 
-# My First Post
 Lorem ipsum dolor amet banh mi tilde pickled, hashtag crucifix hell of taxidermy gastropub sustainable listicle hammock try-hard 3 wolf moon taiyaki fixie. Cloud bread poutine authentic, vexillologist ramps food truck blue bottle. Meditation disrupt heirloom helvetica truffaut. Synth YOLO tote bag banh mi franzen chicharrones keytar. Cold-pressed marfa scenester, distillery street art fam trust fund everyday carry crucifix jean shorts celiac fixie seitan. Ugh cornhole letterpress wayfarers cronut swag YOLO church-key. Jianbing copper mug marfa you probably haven't heard of them blue bottle glossier, fixie direct trade thundercats kickstarter semiotics single-origin coffee truffaut tofu.
 
 Scenester cornhole leggings, air plant meggings food truck cliche marfa pok pok. Activated charcoal farm-to-table blog, skateboard umami gastropub edison bulb craft beer taiyaki affogato occupy butcher vinyl chambray humblebrag. Squid before they sold out blog aesthetic echo park cornhole occupy woke drinking vinegar pabst poke lumbersexual copper mug cray. Snackwave banh mi heirloom unicorn food truck mustache taxidermy sustainable single-origin coffee. Paleo mlkshk tacos sustainable. Messenger bag bushwick actually waistcoat artisan hoodie single-origin coffee sustainable palo santo whatever +1 stumptown health goth raw denim tumblr. Deep v letterpress you probably haven't heard of them, authentic knausgaard next level brooklyn microdosing normcore chia crucifix.
