@@ -29,7 +29,7 @@ const Archive = () => {
 
   const constructLiItem = ({ node }) => (
     <li key={node.frontmatter.path}>
-      <Link to={`${node.frontmatter.path}`}>{node.frontmatter.title}</Link>
+      <Link to={`/posts${node.frontmatter.path}`}>{node.frontmatter.title}</Link>
     </li>
   )
 
